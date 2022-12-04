@@ -45,7 +45,7 @@ plt.close()
 
 
 # Decision Region Graph Function
-def plot_decision_regions(X: np.ndarray, y: np.ndarray, classifier: Perceptron, resolution: float = 0.02):
+def plot_decision_regions(X: np.ndarray, y: np.ndarray, classifier: Perceptron | Adaline | AdalineSGD, resolution: float = 0.02):
     markers = ('o', 's', '^', 'v', '<')
     colors = ('red', 'blue', 'lightgreen', 'gray', 'cyan')
     cmap = ListedColormap(colors[:len(np.unique(y))])
