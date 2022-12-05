@@ -1,0 +1,1 @@
+Accuracy of the model is: 0.978
