@@ -1,4 +1,4 @@
-Note: Python 3.11 is not yet compatible with many important packages, especially
+Note (5th December, 2022) : Python 3.11 is not yet compatible with many important packages, especially
 numba. So it is important that python data science environments use python versions < 3.11.
 
 absl-py @ file:///home/conda/feedstock_root/build_artifacts/absl-py_1665754496418/work
