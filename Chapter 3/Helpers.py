@@ -2,7 +2,7 @@ from typing import Iterable
 
 import numpy as np
 
-from sklearn.linear_model import Perceptron
+from sklearn.linear_model import Perceptron, LogisticRegression
 
 from matplotlib.colors import ListedColormap
 import matplotlib.pyplot as plt
@@ -13,7 +13,7 @@ sns.set()
 def plot_decision_regions(
     X: np.ndarray,
     y: np.ndarray,
-    classifier: Perceptron,
+    classifier: Perceptron | LogisticRegression,
     test_idx: Iterable | None = None,
     resolution: float = 0.02
 ):
