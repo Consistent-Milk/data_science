@@ -1,4 +1,6 @@
 # Script to download and save MNIST dataset in CSV form
+# This may take some time and download progress won't show up
+# in the terminal. The file is almost 240MB in size.
 import os
 import pandas as pd
 from sklearn.datasets import fetch_openml
