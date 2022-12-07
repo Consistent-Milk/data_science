@@ -1,6 +1,8 @@
 Note (5th December, 2022) : Python 3.11 is not yet compatible with many important packages, especially
 numba. So it is important that python data science environments use python versions < 3.11.
 
+Note (7th December, 2022) : The Jupyter Notebooks were run inside Visual Studio Code for Pylance support.
+
 absl-py @ file:///home/conda/feedstock_root/build_artifacts/absl-py_1665754496418/work
 aiofiles @ file:///home/conda/feedstock_root/build_artifacts/aiofiles_1664378549280/work
 aiohttp @ file:///D:/bld/aiohttp_1649013309284/work
